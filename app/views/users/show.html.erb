@@ -8,10 +8,17 @@
 
 </h1>
 
+<% if signed_in? %>
+					<li><%= link_to "Sign out", signout_path %></li>
+					<% else %>
+					<li><%= link_to "Sign in", signin_path %></li>
+					<%end%>
 		</td>
 		<td class="sidebar round">
 		
 			<strong>URL</strong><%= link_to user_path(@user),@user %>
+
+		
 		</td>
 	</tr>
 
