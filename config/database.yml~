@@ -28,5 +28,5 @@ test:
   database: bookkeeper_invoicing_test
   pool: 5
   username: root
-  password:
+  password: pranaya
   socket: /var/run/mysqld/mysqld.sock
