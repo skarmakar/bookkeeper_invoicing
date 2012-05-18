@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  invoice_item_id: 1
+  tax_id: 1
+  tax_amount: 1
+
+two:
+  invoice_item_id: 1
+  tax_id: 1
+  tax_amount: 1

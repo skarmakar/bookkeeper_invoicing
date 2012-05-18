@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  business_id: 
+  type: 
+  value: 1
+  is_percentage: false
+  available: false
+
+two:
+  business_id: 
+  type: 
+  value: 1
+  is_percentage: false
+  available: false

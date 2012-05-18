@@ -1,3 +1,18 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id                 :integer(4)      not null, primary key
+#  email              :string(255)     not null
+#  first_name         :string(255)
+#  last_name          :string(255)
+#  password           :string(255)
+#  encrypted_password :string(255)
+#  salt               :string(255)
+#  created_at         :datetime        not null
+#  updated_at         :datetime        not null
+#
+
 class User < ActiveRecord::Base
   attr_accessible :email, :first_name, :last_name, :password
 
